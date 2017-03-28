@@ -64,7 +64,7 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
     
     protected String typeUser(boolean isUser, boolean isAdmin){
     	 if (isUser) {
-             return "/useree";
+             return "/user";
          } else if (isAdmin) {
              return "/company";
          } else {
